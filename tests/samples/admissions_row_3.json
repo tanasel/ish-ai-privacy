@@ -1,0 +1,38 @@
+{
+  "name": "admissions_row_3",
+  "text": "applicant_name,dob,bsn,address,postcode,city,phone,email,guardian\nBram van Dijk,18-05-2010,748165769,Molenplein 76a,3529 VP,Den Haag,+31693750054,bram.vandijk@example-school.nl,Lotte ter Horst\n# note: legacy row id 396272783 retired on Monday\n",
+  "pii": [
+    {
+      "value": "Bram van Dijk",
+      "type": "name"
+    },
+    {
+      "value": "18-05-2010",
+      "type": "date"
+    },
+    {
+      "value": "748165769",
+      "type": "bsn"
+    },
+    {
+      "value": "Molenplein 76a",
+      "type": "address"
+    },
+    {
+      "value": "3529 VP",
+      "type": "postcode"
+    },
+    {
+      "value": "+31693750054",
+      "type": "phone"
+    },
+    {
+      "value": "bram.vandijk@example-school.nl",
+      "type": "email"
+    },
+    {
+      "value": "Lotte ter Horst",
+      "type": "name"
+    }
+  ]
+}

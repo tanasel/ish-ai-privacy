@@ -1,0 +1,26 @@
+{
+  "name": "ee_feedback_47",
+  "text": "EE supervision log — Kwame Mensah\nSession date: 16 May 2023\n\nDiscussed the methodology chapter. Kwame will interview a local expert; consent form scanned to https://www.example-tutoring.nl/booking?ref=7339. Reminder sent to kwame16@studentmail.example.org about the RPPF deadline of 19 september 2022. No use of personal data beyond the school; The Hague archive visit planned for a Monday in January.\n",
+  "pii": [
+    {
+      "value": "Kwame Mensah",
+      "type": "name"
+    },
+    {
+      "value": "16 May 2023",
+      "type": "date"
+    },
+    {
+      "value": "https://www.example-tutoring.nl/booking?ref=7339",
+      "type": "url"
+    },
+    {
+      "value": "kwame16@studentmail.example.org",
+      "type": "email"
+    },
+    {
+      "value": "19 september 2022",
+      "type": "date"
+    }
+  ]
+}

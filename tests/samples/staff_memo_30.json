@@ -1,0 +1,30 @@
+{
+  "name": "staff_memo_30",
+  "text": "STAFF MEMO — exam invigilation\nEffective: 25 september 2015\n\nColleagues, the invigilation roster is on https://portal.example-school.nl/student/95624. The printer in room 12 now sits on the staff VLAN at 58.190.134.43. Reimbursements for the January excursion go out this week; check that payroll has your IBAN — one colleague still has the placeholder NL02ABNA4270820565 on file. Questions to Sanne van der Berg (sanne.vanderberg@example-school.nl). The Hague municipality inspection is on a Monday; batch code 438547434 applies to the fire drill, ignore it.\n",
+  "pii": [
+    {
+      "value": "25 september 2015",
+      "type": "date"
+    },
+    {
+      "value": "https://portal.example-school.nl/student/95624",
+      "type": "url"
+    },
+    {
+      "value": "58.190.134.43",
+      "type": "ip"
+    },
+    {
+      "value": "NL02ABNA4270820565",
+      "type": "iban"
+    },
+    {
+      "value": "Sanne van der Berg",
+      "type": "name"
+    },
+    {
+      "value": "sanne.vanderberg@example-school.nl",
+      "type": "email"
+    }
+  ]
+}

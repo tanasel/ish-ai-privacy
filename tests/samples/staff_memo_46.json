@@ -1,0 +1,30 @@
+{
+  "name": "staff_memo_46",
+  "text": "STAFF MEMO — exam invigilation\nEffective: 3 januari 2019\n\nColleagues, the invigilation roster is on https://drive.example.com/d/944755x. The printer in room 12 now sits on the staff VLAN at 87.246.100.84. Reimbursements for the January excursion go out this week; check that payroll has your IBAN — one colleague still has the placeholder NL37ABNA4763120005 on file. Questions to Freja Østergaard (freja.stergaard@example-school.nl). The Hague municipality inspection is on a Monday; batch code 271033102 applies to the fire drill, ignore it.\n",
+  "pii": [
+    {
+      "value": "3 januari 2019",
+      "type": "date"
+    },
+    {
+      "value": "https://drive.example.com/d/944755x",
+      "type": "url"
+    },
+    {
+      "value": "87.246.100.84",
+      "type": "ip"
+    },
+    {
+      "value": "NL37ABNA4763120005",
+      "type": "iban"
+    },
+    {
+      "value": "Freja Østergaard",
+      "type": "name"
+    },
+    {
+      "value": "freja.stergaard@example-school.nl",
+      "type": "email"
+    }
+  ]
+}

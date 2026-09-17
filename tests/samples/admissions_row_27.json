@@ -1,0 +1,38 @@
+{
+  "name": "admissions_row_27",
+  "text": "applicant_name,dob,bsn,address,postcode,city,phone,email,guardian\nNoa de Vries,17-11-2014,900721406,Wilgenhof 147,3881 GT,Den Haag,+31648868242,noa.devries@example-school.nl,Ravi Pillai\n# note: legacy row id 267273151 retired on Monday\n",
+  "pii": [
+    {
+      "value": "Noa de Vries",
+      "type": "name"
+    },
+    {
+      "value": "17-11-2014",
+      "type": "date"
+    },
+    {
+      "value": "900721406",
+      "type": "bsn"
+    },
+    {
+      "value": "Wilgenhof 147",
+      "type": "address"
+    },
+    {
+      "value": "3881 GT",
+      "type": "postcode"
+    },
+    {
+      "value": "+31648868242",
+      "type": "phone"
+    },
+    {
+      "value": "noa.devries@example-school.nl",
+      "type": "email"
+    },
+    {
+      "value": "Ravi Pillai",
+      "type": "name"
+    }
+  ]
+}

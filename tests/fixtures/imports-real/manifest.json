@@ -1,0 +1,87 @@
+{
+  "fixtures": [
+    {
+      "file": "generated-staff-presentation.pptx",
+      "contains": [
+        "Birthdate: 14/03/2010",
+        "GENERATED_NOTES: Aya Hassan"
+      ],
+      "bytes": 34781,
+      "sha256": "a3ce4b170a0ec9588b115e55d88792b276e3328a28c543061e2dfbfe08888e9a",
+      "fixtureKind": "library-generated-full-package",
+      "ordered": [
+        "FIRST_GENERATED_SLIDE",
+        "SECOND_GENERATED_SLIDE",
+        "HIDDEN_GENERATED_SLIDE"
+      ]
+    },
+    {
+      "file": "generated-staff-document.docx",
+      "contains": [
+        "GENERATED_WORD_BODY",
+        "GENERATED_WORD_HEADER",
+        "GENERATED_WORD_FOOTER",
+        "GENERATED_WORD_COMMENT",
+        "Birthdate: 14/03/2010"
+      ],
+      "bytes": 38414,
+      "sha256": "45147799997552ccd0d6e942a44e5df8be8399ca92b349985f99199bfb17363c",
+      "fixtureKind": "library-generated-full-package"
+    },
+    {
+      "file": "generated-staff-workbook.xlsx",
+      "contains": [
+        "Sofia Marin",
+        "sofia@example.org",
+        "GENERATED_HIDDEN_SHEET",
+        "GENERATED_EXCEL_COMMENT",
+        "2010-03-14"
+      ],
+      "bytes": 6863,
+      "sha256": "b07e4d22b4531b38dea5e994d6fa32c7e2edeac7bd5250279042e2e159fcf0aa",
+      "fixtureKind": "library-generated-full-package"
+    },
+    {
+      "file": "generated-staff-presentation.odp",
+      "contains": [
+        "FIRST_GENERATED_SLIDE",
+        "GENERATED_NOTES",
+        "HIDDEN_GENERATED_SLIDE"
+      ],
+      "bytes": 24811,
+      "sha256": "1d2f3095007e28a5ea211593f92adf6402de5bc5ee28f346567e1980dd2c3f4c",
+      "fixtureKind": "libreoffice-converted-full-package"
+    },
+    {
+      "file": "generated-staff-document.odt",
+      "contains": [
+        "GENERATED_WORD_BODY",
+        "GENERATED_WORD_HEADER",
+        "GENERATED_WORD_FOOTER",
+        "GENERATED_WORD_COMMENT"
+      ],
+      "bytes": 15743,
+      "sha256": "cd5d779a786f0f3c6dd874a790a8c313aeb17a3537da84c457d0c5547bc5082d",
+      "fixtureKind": "libreoffice-converted-full-package"
+    },
+    {
+      "file": "generated-staff-workbook.ods",
+      "contains": [
+        "Sofia Marin",
+        "sofia@example.org",
+        "GENERATED_HIDDEN_SHEET",
+        "GENERATED_EXCEL_COMMENT"
+      ],
+      "bytes": 10783,
+      "sha256": "9ade6a210f18dbeb1459a915bc3a85b6e99719f3323fbb63c06b843cfac6467b",
+      "fixtureKind": "libreoffice-converted-full-package"
+    }
+  ],
+  "provenance": {
+    "python-pptx": "1.0.2",
+    "python-docx": "1.2.0",
+    "openpyxl": "3.1.5",
+    "libreoffice": "LibreOffice 26.2.3.2 70e089b17412e4cb7773e41413306b17a2328c34",
+    "scope": "Generated files reopened by their authoring libraries and converted by LibreOffice. No interactive Microsoft Office application verification."
+  }
+}

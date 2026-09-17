@@ -1,0 +1,30 @@
+{
+  "name": "report_card_1",
+  "text": "IB DP Report — Semester comment\nStudent: Sanne van der Berg\nDate issued: 15 november 2021\n\nSanne van der Berg has shown steady growth in Computer Science this term. In the unit test of 2021-07-05, Sanne reached the class median. Homework submissions arrive on time every Monday, and engagement in January was notably strong. Parents can reach the subject teacher at t.docent@example-school.nl or via +31 (0)6 25055678. Note: internal reference 284918200 is a ManageBac batch number, not a person identifier.\n",
+  "pii": [
+    {
+      "value": "Sanne van der Berg",
+      "type": "name"
+    },
+    {
+      "value": "15 november 2021",
+      "type": "date"
+    },
+    {
+      "value": "Sanne van der Berg",
+      "type": "name"
+    },
+    {
+      "value": "2021-07-05",
+      "type": "date"
+    },
+    {
+      "value": "t.docent@example-school.nl",
+      "type": "email"
+    },
+    {
+      "value": "+31 (0)6 25055678",
+      "type": "phone"
+    }
+  ]
+}

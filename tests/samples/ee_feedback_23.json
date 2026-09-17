@@ -1,0 +1,26 @@
+{
+  "name": "ee_feedback_23",
+  "text": "EE supervision log — Minh Nguyễn\nSession date: 18-10-2013\n\nDiscussed the methodology chapter. Minh will interview a local expert; consent form scanned to https://portal.example-school.nl/student/92206. Reminder sent to minh49@studentmail.example.org about the RPPF deadline of 10 June 2010. No use of personal data beyond the school; The Hague archive visit planned for a Monday in January.\n",
+  "pii": [
+    {
+      "value": "Minh Nguyễn",
+      "type": "name"
+    },
+    {
+      "value": "18-10-2013",
+      "type": "date"
+    },
+    {
+      "value": "https://portal.example-school.nl/student/92206",
+      "type": "url"
+    },
+    {
+      "value": "minh49@studentmail.example.org",
+      "type": "email"
+    },
+    {
+      "value": "10 June 2010",
+      "type": "date"
+    }
+  ]
+}

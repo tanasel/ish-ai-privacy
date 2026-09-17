@@ -1,0 +1,38 @@
+{
+  "name": "parent_email_29",
+  "text": "From: anders.nystrom@example-school.nl\nTo: admin.school@example-school.nl\nSent: 9 augustus 2020\nSubject: Trip payment for Maja Zieliński\n\nDear administration,\n\nI transferred the field-trip contribution today from account NL58SNSB3651108403. Could you confirm receipt? We are away until next Monday. Our new address is 9 Birch Avenue — the post to the old street keeps bouncing. You can also call me on +31 (0)6 31887225.\n\nKind regards,\nAnders Nyström\n",
+  "pii": [
+    {
+      "value": "anders.nystrom@example-school.nl",
+      "type": "email"
+    },
+    {
+      "value": "admin.school@example-school.nl",
+      "type": "email"
+    },
+    {
+      "value": "9 augustus 2020",
+      "type": "date"
+    },
+    {
+      "value": "Maja Zieliński",
+      "type": "name"
+    },
+    {
+      "value": "NL58SNSB3651108403",
+      "type": "iban"
+    },
+    {
+      "value": "9 Birch Avenue",
+      "type": "address"
+    },
+    {
+      "value": "+31 (0)6 31887225",
+      "type": "phone"
+    },
+    {
+      "value": "Anders Nyström",
+      "type": "name"
+    }
+  ]
+}

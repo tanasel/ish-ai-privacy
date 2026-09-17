@@ -1,0 +1,38 @@
+{
+  "name": "parent_email_37",
+  "text": "From: wei.zhang@example-school.nl\nTo: admin_school@familypost.example.com\nSent: 2019-01-24\nSubject: Trip payment for Aisha Benali\n\nDear administration,\n\nI transferred the field-trip contribution today from account NL98BUNQ8532273192. Could you confirm receipt? We are away until next Monday. Our new address is 100 Cedar Close — the post to the old street keeps bouncing. You can also call me on +31646241855.\n\nKind regards,\nWei Zhang\n",
+  "pii": [
+    {
+      "value": "wei.zhang@example-school.nl",
+      "type": "email"
+    },
+    {
+      "value": "admin_school@familypost.example.com",
+      "type": "email"
+    },
+    {
+      "value": "2019-01-24",
+      "type": "date"
+    },
+    {
+      "value": "Aisha Benali",
+      "type": "name"
+    },
+    {
+      "value": "NL98BUNQ8532273192",
+      "type": "iban"
+    },
+    {
+      "value": "100 Cedar Close",
+      "type": "address"
+    },
+    {
+      "value": "+31646241855",
+      "type": "phone"
+    },
+    {
+      "value": "Wei Zhang",
+      "type": "name"
+    }
+  ]
+}

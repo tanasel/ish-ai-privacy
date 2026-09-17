@@ -1,0 +1,26 @@
+{
+  "name": "ee_feedback_31",
+  "text": "EE supervision log — Daan de Jong\nSession date: 25-04-2013\n\nDiscussed the methodology chapter. Daan will interview a local expert; consent form scanned to https://www.example-tutoring.nl/booking?ref=1928. Reminder sent to daan_dejong@familypost.example.com about the RPPF deadline of 19 mei 2024. No use of personal data beyond the school; The Hague archive visit planned for a Monday in January.\n",
+  "pii": [
+    {
+      "value": "Daan de Jong",
+      "type": "name"
+    },
+    {
+      "value": "25-04-2013",
+      "type": "date"
+    },
+    {
+      "value": "https://www.example-tutoring.nl/booking?ref=1928",
+      "type": "url"
+    },
+    {
+      "value": "daan_dejong@familypost.example.com",
+      "type": "email"
+    },
+    {
+      "value": "19 mei 2024",
+      "type": "date"
+    }
+  ]
+}

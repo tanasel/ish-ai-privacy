@@ -1,0 +1,30 @@
+{
+  "name": "ia_feedback_2",
+  "text": "IA Criterion C feedback for Daan de Jong (draft received 1 February 2024)\n\nThe development section is well structured. The screencast hosted at https://portal.example-school.nl/student/23675 demonstrates the database queries clearly. However, the appendix still contains the test server address 36.90.138.249 and your personal email daan43@studentmail.example.org — remove both before final submission. The word count is fine. The Hague regional deadline is unchanged; submission closes in March.\n\nSupervisor sign-off: Femke Jansen\n",
+  "pii": [
+    {
+      "value": "Daan de Jong",
+      "type": "name"
+    },
+    {
+      "value": "1 February 2024",
+      "type": "date"
+    },
+    {
+      "value": "https://portal.example-school.nl/student/23675",
+      "type": "url"
+    },
+    {
+      "value": "36.90.138.249",
+      "type": "ip"
+    },
+    {
+      "value": "daan43@studentmail.example.org",
+      "type": "email"
+    },
+    {
+      "value": "Femke Jansen",
+      "type": "name"
+    }
+  ]
+}

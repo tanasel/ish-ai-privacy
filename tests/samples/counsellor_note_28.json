@@ -1,0 +1,38 @@
+{
+  "name": "counsellor_note_28",
+  "text": "Well-being note — CONFIDENTIAL\nSeen: Fatima Al-Rashidi on 27-05-2019\n\nFatima reported exam stress and poor sleep since January. Agreed on a check-in every Monday. Home situation stable; family recently moved to Wilgenhof 180b, 8405 BZ Den Haag. Emergency contact: Chidi Eze, +31 (0)6 46376082. GP referral letter uploaded to https://drive.example.com/d/932708x. BSN on file: 525829726. Next review after the The Hague mock exams.\n",
+  "pii": [
+    {
+      "value": "Fatima Al-Rashidi",
+      "type": "name"
+    },
+    {
+      "value": "27-05-2019",
+      "type": "date"
+    },
+    {
+      "value": "Wilgenhof 180b",
+      "type": "address"
+    },
+    {
+      "value": "8405 BZ",
+      "type": "postcode"
+    },
+    {
+      "value": "Chidi Eze",
+      "type": "name"
+    },
+    {
+      "value": "+31 (0)6 46376082",
+      "type": "phone"
+    },
+    {
+      "value": "https://drive.example.com/d/932708x",
+      "type": "url"
+    },
+    {
+      "value": "525829726",
+      "type": "bsn"
+    }
+  ]
+}

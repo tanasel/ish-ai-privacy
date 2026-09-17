@@ -1,0 +1,30 @@
+{
+  "name": "report_card_9",
+  "text": "IB DP Report — Semester comment\nStudent: Meilin Chen\nDate issued: 4 August 2021\n\nMeilin Chen has shown steady growth in Computer Science this term. In the unit test of 2016-01-26, Meilin reached the class median. Homework submissions arrive on time every Monday, and engagement in January was notably strong. Parents can reach the subject teacher at t_docent@familypost.example.com or via +31 6 85451192. Note: internal reference 294847729 is a ManageBac batch number, not a person identifier.\n",
+  "pii": [
+    {
+      "value": "Meilin Chen",
+      "type": "name"
+    },
+    {
+      "value": "4 August 2021",
+      "type": "date"
+    },
+    {
+      "value": "Meilin Chen",
+      "type": "name"
+    },
+    {
+      "value": "2016-01-26",
+      "type": "date"
+    },
+    {
+      "value": "t_docent@familypost.example.com",
+      "type": "email"
+    },
+    {
+      "value": "+31 6 85451192",
+      "type": "phone"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "report_card_41",
+  "text": "IB DP Report — Semester comment\nStudent: Kavya Sharma\nDate issued: 24-10-2016\n\nKavya Sharma has shown steady growth in Computer Science this term. In the unit test of 2012-04-28, Kavya reached the class median. Homework submissions arrive on time every Monday, and engagement in January was notably strong. Parents can reach the subject teacher at t.docent@example-school.nl or via +31 70 6794440. Note: internal reference 264512092 is a ManageBac batch number, not a person identifier.\n",
+  "pii": [
+    {
+      "value": "Kavya Sharma",
+      "type": "name"
+    },
+    {
+      "value": "24-10-2016",
+      "type": "date"
+    },
+    {
+      "value": "Kavya Sharma",
+      "type": "name"
+    },
+    {
+      "value": "2012-04-28",
+      "type": "date"
+    },
+    {
+      "value": "t.docent@example-school.nl",
+      "type": "email"
+    },
+    {
+      "value": "+31 70 6794440",
+      "type": "phone"
+    }
+  ]
+}

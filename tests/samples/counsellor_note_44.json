@@ -1,0 +1,38 @@
+{
+  "name": "counsellor_note_44",
+  "text": "Well-being note — CONFIDENTIAL\nSeen: Błażej Nowak on 10-09-2018\n\nBłażej reported exam stress and poor sleep since January. Agreed on a check-in every Monday. Home situation stable; family recently moved to Kastanjesingel 155, 1781 GX Den Haag. Emergency contact: Kasia Wiśniewska, +31613918668. GP referral letter uploaded to https://portal.example-school.nl/student/15352. BSN on file: 698141167. Next review after the The Hague mock exams.\n",
+  "pii": [
+    {
+      "value": "Błażej Nowak",
+      "type": "name"
+    },
+    {
+      "value": "10-09-2018",
+      "type": "date"
+    },
+    {
+      "value": "Kastanjesingel 155",
+      "type": "address"
+    },
+    {
+      "value": "1781 GX",
+      "type": "postcode"
+    },
+    {
+      "value": "Kasia Wiśniewska",
+      "type": "name"
+    },
+    {
+      "value": "+31613918668",
+      "type": "phone"
+    },
+    {
+      "value": "https://portal.example-school.nl/student/15352",
+      "type": "url"
+    },
+    {
+      "value": "698141167",
+      "type": "bsn"
+    }
+  ]
+}

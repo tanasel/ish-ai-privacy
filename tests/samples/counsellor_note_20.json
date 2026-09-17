@@ -1,0 +1,38 @@
+{
+  "name": "counsellor_note_20",
+  "text": "Well-being note — CONFIDENTIAL\nSeen: Sakura Ishikawa on 2025-08-24\n\nSakura reported exam stress and poor sleep since January. Agreed on a check-in every Monday. Home situation stable; family recently moved to Vijverweg 64, 1716 PM Den Haag. Emergency contact: Jiwoo Park, +31 (0)6 46602371. GP referral letter uploaded to https://www.example-tutoring.nl/booking?ref=3612. BSN on file: 462712552. Next review after the The Hague mock exams.\n",
+  "pii": [
+    {
+      "value": "Sakura Ishikawa",
+      "type": "name"
+    },
+    {
+      "value": "2025-08-24",
+      "type": "date"
+    },
+    {
+      "value": "Vijverweg 64",
+      "type": "address"
+    },
+    {
+      "value": "1716 PM",
+      "type": "postcode"
+    },
+    {
+      "value": "Jiwoo Park",
+      "type": "name"
+    },
+    {
+      "value": "+31 (0)6 46602371",
+      "type": "phone"
+    },
+    {
+      "value": "https://www.example-tutoring.nl/booking?ref=3612",
+      "type": "url"
+    },
+    {
+      "value": "462712552",
+      "type": "bsn"
+    }
+  ]
+}

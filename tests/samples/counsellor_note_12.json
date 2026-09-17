@@ -1,0 +1,38 @@
+{
+  "name": "counsellor_note_12",
+  "text": "Well-being note — CONFIDENTIAL\nSeen: José Álvarez on 6 June 2011\n\nJosé reported exam stress and poor sleep since January. Agreed on a check-in every Monday. Home situation stable; family recently moved to Molenplein 18-II, 8490 UN Den Haag. Emergency contact: Lucía Fernández García, +31 (0)6 55842506. GP referral letter uploaded to https://drive.example.com/d/226900x. BSN on file: 274191106. Next review after the The Hague mock exams.\n",
+  "pii": [
+    {
+      "value": "José Álvarez",
+      "type": "name"
+    },
+    {
+      "value": "6 June 2011",
+      "type": "date"
+    },
+    {
+      "value": "Molenplein 18-II",
+      "type": "address"
+    },
+    {
+      "value": "8490 UN",
+      "type": "postcode"
+    },
+    {
+      "value": "Lucía Fernández García",
+      "type": "name"
+    },
+    {
+      "value": "+31 (0)6 55842506",
+      "type": "phone"
+    },
+    {
+      "value": "https://drive.example.com/d/226900x",
+      "type": "url"
+    },
+    {
+      "value": "274191106",
+      "type": "bsn"
+    }
+  ]
+}

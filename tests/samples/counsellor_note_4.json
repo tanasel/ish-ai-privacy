@@ -1,0 +1,38 @@
+{
+  "name": "counsellor_note_4",
+  "text": "Well-being note — CONFIDENTIAL\nSeen: Oliver Whitfield on 2 July 2022\n\nOliver reported exam stress and poor sleep since January. Agreed on a check-in every Monday. Home situation stable; family recently moved to Wilgenhof 44, 8102 DK Den Haag. Emergency contact: Poppy Ellison, +31 (0)6 79300855. GP referral letter uploaded to https://portal.example-school.nl/student/88803. BSN on file: 270161107. Next review after the The Hague mock exams.\n",
+  "pii": [
+    {
+      "value": "Oliver Whitfield",
+      "type": "name"
+    },
+    {
+      "value": "2 July 2022",
+      "type": "date"
+    },
+    {
+      "value": "Wilgenhof 44",
+      "type": "address"
+    },
+    {
+      "value": "8102 DK",
+      "type": "postcode"
+    },
+    {
+      "value": "Poppy Ellison",
+      "type": "name"
+    },
+    {
+      "value": "+31 (0)6 79300855",
+      "type": "phone"
+    },
+    {
+      "value": "https://portal.example-school.nl/student/88803",
+      "type": "url"
+    },
+    {
+      "value": "270161107",
+      "type": "bsn"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "pii-shield",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "node build.js",
+    "test": "node tests/run_all.js",
+    "test:smoke": "node tests/smoke_codex.js",
+    "test:browser": "node tests/e2e.playwright.js",
+    "test:dutch": "node tests/e2e.dutch.playwright.js",
+    "test:safety": "node tests/safety.browser.test.js",
+    "test:webkit": "node tests/staff.browser.test.js webkit",
+    "test:firefox": "node tests/staff.browser.test.js firefox",
+    "test:hosting": "node tests/hosting.browser.test.js",
+    "test:all": "npm run build && npm run build:verify && npm test && npm run test:smoke && npm run test:browser && npm run test:dutch && npm run test:safety && npm run test:webkit && npm run test:firefox && npm run test:hosting && npm run test:privacy && npm run test:brand && npm run test:imports",
+    "test:privacy": "node tests/privacy.browser.test.js chromium && node tests/privacy.browser.test.js webkit && node tests/privacy.browser.test.js firefox",
+    "test:brand": "node tests/brand.browser.test.js chromium && node tests/brand.browser.test.js webkit",
+    "test:live:shield": "node tests/ishweb-release.browser.test.js --live-confirmed",
+    "test:imports": "node tests/imports.browser.test.js chromium && node tests/imports.browser.test.js webkit && node tests/imports.browser.test.js firefox",
+    "build:verify": "node build.js --verify"
+  },
+  "devDependencies": {
+    "axe-core": "^4.13.0",
+    "fflate": "0.8.3",
+    "playwright": "^1.62.1"
+  },
+  "version": "2.4.0",
+  "engines": {
+    "node": ">=24"
+  }
+}

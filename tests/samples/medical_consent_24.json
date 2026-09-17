@@ -1,0 +1,42 @@
+{
+  "name": "medical_consent_24",
+  "text": "Sports day medical consent\nStudent: Linh Trần\nDate of birth: 16-01-2019\nBSN: 629988717\nHome address: Beukenlaan 99, 6638 LU\nGuardian: Hannah Müller — +31 6 82173310 — hannah.muller@example-school.nl\nInsurance IBAN for refunds: NL87RABO7801297164\nNote: form batch 363114647 printed in January; return by Monday.\n",
+  "pii": [
+    {
+      "value": "Linh Trần",
+      "type": "name"
+    },
+    {
+      "value": "16-01-2019",
+      "type": "date"
+    },
+    {
+      "value": "629988717",
+      "type": "bsn"
+    },
+    {
+      "value": "Beukenlaan 99",
+      "type": "address"
+    },
+    {
+      "value": "6638 LU",
+      "type": "postcode"
+    },
+    {
+      "value": "Hannah Müller",
+      "type": "name"
+    },
+    {
+      "value": "+31 6 82173310",
+      "type": "phone"
+    },
+    {
+      "value": "hannah.muller@example-school.nl",
+      "type": "email"
+    },
+    {
+      "value": "NL87RABO7801297164",
+      "type": "iban"
+    }
+  ]
+}

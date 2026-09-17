@@ -1,0 +1,30 @@
+{
+  "name": "report_card_49",
+  "text": "IB DP Report — Semester comment\nStudent: Haruto Yamamoto\nDate issued: 2013-05-02\n\nHaruto Yamamoto has shown steady growth in Computer Science this term. In the unit test of 20 oktober 2025, Haruto reached the class median. Homework submissions arrive on time every Monday, and engagement in January was notably strong. Parents can reach the subject teacher at t04@studentmail.example.org or via +31 (0)6 51620585. Note: internal reference 661697862 is a ManageBac batch number, not a person identifier.\n",
+  "pii": [
+    {
+      "value": "Haruto Yamamoto",
+      "type": "name"
+    },
+    {
+      "value": "2013-05-02",
+      "type": "date"
+    },
+    {
+      "value": "Haruto Yamamoto",
+      "type": "name"
+    },
+    {
+      "value": "20 oktober 2025",
+      "type": "date"
+    },
+    {
+      "value": "t04@studentmail.example.org",
+      "type": "email"
+    },
+    {
+      "value": "+31 (0)6 51620585",
+      "type": "phone"
+    }
+  ]
+}

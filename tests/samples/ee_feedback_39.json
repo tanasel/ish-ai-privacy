@@ -1,0 +1,26 @@
+{
+  "name": "ee_feedback_39",
+  "text": "EE supervision log — Junjie Wu\nSession date: 11-03-2016\n\nDiscussed the methodology chapter. Junjie will interview a local expert; consent form scanned to https://portal.example-school.nl/student/51898. Reminder sent to junjie.wu@example-school.nl about the RPPF deadline of 09-11-2024. No use of personal data beyond the school; The Hague archive visit planned for a Monday in January.\n",
+  "pii": [
+    {
+      "value": "Junjie Wu",
+      "type": "name"
+    },
+    {
+      "value": "11-03-2016",
+      "type": "date"
+    },
+    {
+      "value": "https://portal.example-school.nl/student/51898",
+      "type": "url"
+    },
+    {
+      "value": "junjie.wu@example-school.nl",
+      "type": "email"
+    },
+    {
+      "value": "09-11-2024",
+      "type": "date"
+    }
+  ]
+}

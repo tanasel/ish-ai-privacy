@@ -1,0 +1,30 @@
+{
+  "name": "report_card_25",
+  "text": "IB DP Report — Semester comment\nStudent: Élodie Moreau\nDate issued: 10-04-2024\n\nÉlodie Moreau has shown steady growth in Computer Science this term. In the unit test of 2015-11-28, Élodie reached the class median. Homework submissions arrive on time every Monday, and engagement in January was notably strong. Parents can reach the subject teacher at t_docent@familypost.example.com or via +31 70 1092593. Note: internal reference 502336056 is a ManageBac batch number, not a person identifier.\n",
+  "pii": [
+    {
+      "value": "Élodie Moreau",
+      "type": "name"
+    },
+    {
+      "value": "10-04-2024",
+      "type": "date"
+    },
+    {
+      "value": "Élodie Moreau",
+      "type": "name"
+    },
+    {
+      "value": "2015-11-28",
+      "type": "date"
+    },
+    {
+      "value": "t_docent@familypost.example.com",
+      "type": "email"
+    },
+    {
+      "value": "+31 70 1092593",
+      "type": "phone"
+    }
+  ]
+}

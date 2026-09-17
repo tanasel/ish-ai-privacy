@@ -1,0 +1,26 @@
+{
+  "name": "ee_feedback_7",
+  "text": "EE supervision log — Yusuf El Amrani\nSession date: 9 January 2016\n\nDiscussed the methodology chapter. Yusuf will interview a local expert; consent form scanned to https://www.example-tutoring.nl/booking?ref=8635. Reminder sent to yusuf.elamrani@example-school.nl about the RPPF deadline of 2019-01-23. No use of personal data beyond the school; The Hague archive visit planned for a Monday in January.\n",
+  "pii": [
+    {
+      "value": "Yusuf El Amrani",
+      "type": "name"
+    },
+    {
+      "value": "9 January 2016",
+      "type": "date"
+    },
+    {
+      "value": "https://www.example-tutoring.nl/booking?ref=8635",
+      "type": "url"
+    },
+    {
+      "value": "yusuf.elamrani@example-school.nl",
+      "type": "email"
+    },
+    {
+      "value": "2019-01-23",
+      "type": "date"
+    }
+  ]
+}

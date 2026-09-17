@@ -1,0 +1,30 @@
+{
+  "name": "staff_memo_38",
+  "text": "STAFF MEMO — exam invigilation\nEffective: 07-04-2017\n\nColleagues, the invigilation roster is on https://www.example-tutoring.nl/booking?ref=1913. The printer in room 12 now sits on the staff VLAN at 29.130.33.224. Reimbursements for the January excursion go out this week; check that payroll has your IBAN — one colleague still has the placeholder NL55SNSB1030832677 on file. Questions to Meilin Chen (meilin84@studentmail.example.org). The Hague municipality inspection is on a Monday; batch code 289877004 applies to the fire drill, ignore it.\n",
+  "pii": [
+    {
+      "value": "07-04-2017",
+      "type": "date"
+    },
+    {
+      "value": "https://www.example-tutoring.nl/booking?ref=1913",
+      "type": "url"
+    },
+    {
+      "value": "29.130.33.224",
+      "type": "ip"
+    },
+    {
+      "value": "NL55SNSB1030832677",
+      "type": "iban"
+    },
+    {
+      "value": "Meilin Chen",
+      "type": "name"
+    },
+    {
+      "value": "meilin84@studentmail.example.org",
+      "type": "email"
+    }
+  ]
+}

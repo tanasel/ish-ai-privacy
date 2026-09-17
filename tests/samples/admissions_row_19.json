@@ -1,0 +1,38 @@
+{
+  "name": "admissions_row_19",
+  "text": "applicant_name,dob,bsn,address,postcode,city,phone,email,guardian\nThandiwe Dlamini,02-04-2019,745253441,Zonnedauwstraat 49b,8625 ND,Den Haag,+31 6 62250923,thandiwe.dlamini@example-school.nl,Haruto Yamamoto\n# note: legacy row id 518949449 retired on Monday\n",
+  "pii": [
+    {
+      "value": "Thandiwe Dlamini",
+      "type": "name"
+    },
+    {
+      "value": "02-04-2019",
+      "type": "date"
+    },
+    {
+      "value": "745253441",
+      "type": "bsn"
+    },
+    {
+      "value": "Zonnedauwstraat 49b",
+      "type": "address"
+    },
+    {
+      "value": "8625 ND",
+      "type": "postcode"
+    },
+    {
+      "value": "+31 6 62250923",
+      "type": "phone"
+    },
+    {
+      "value": "thandiwe.dlamini@example-school.nl",
+      "type": "email"
+    },
+    {
+      "value": "Haruto Yamamoto",
+      "type": "name"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "report_card_33",
+  "text": "IB DP Report — Semester comment\nStudent: Lotte ter Horst\nDate issued: 2019-03-01\n\nLotte ter Horst has shown steady growth in Computer Science this term. In the unit test of 28-11-2011, Lotte reached the class median. Homework submissions arrive on time every Monday, and engagement in January was notably strong. Parents can reach the subject teacher at t96@studentmail.example.org or via +31 70 4674234. Note: internal reference 414268077 is a ManageBac batch number, not a person identifier.\n",
+  "pii": [
+    {
+      "value": "Lotte ter Horst",
+      "type": "name"
+    },
+    {
+      "value": "2019-03-01",
+      "type": "date"
+    },
+    {
+      "value": "Lotte ter Horst",
+      "type": "name"
+    },
+    {
+      "value": "28-11-2011",
+      "type": "date"
+    },
+    {
+      "value": "t96@studentmail.example.org",
+      "type": "email"
+    },
+    {
+      "value": "+31 70 4674234",
+      "type": "phone"
+    }
+  ]
+}

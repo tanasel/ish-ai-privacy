@@ -1,0 +1,30 @@
+{
+  "name": "report_card_17",
+  "text": "IB DP Report — Semester comment\nStudent: Freja Østergaard\nDate issued: 2017-05-04\n\nFreja Østergaard has shown steady growth in Computer Science this term. In the unit test of 06-02-2011, Freja reached the class median. Homework submissions arrive on time every Monday, and engagement in January was notably strong. Parents can reach the subject teacher at t_docent@familypost.example.com or via +31 6 16022330. Note: internal reference 799312217 is a ManageBac batch number, not a person identifier.\n",
+  "pii": [
+    {
+      "value": "Freja Østergaard",
+      "type": "name"
+    },
+    {
+      "value": "2017-05-04",
+      "type": "date"
+    },
+    {
+      "value": "Freja Østergaard",
+      "type": "name"
+    },
+    {
+      "value": "06-02-2011",
+      "type": "date"
+    },
+    {
+      "value": "t_docent@familypost.example.com",
+      "type": "email"
+    },
+    {
+      "value": "+31 6 16022330",
+      "type": "phone"
+    }
+  ]
+}

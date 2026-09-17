@@ -1,0 +1,38 @@
+{
+  "name": "admissions_row_35",
+  "text": "applicant_name,dob,bsn,address,postcode,city,phone,email,guardian\nHarry Pemberton,13-02-2013,280738158,Beukenlaan 161,8734 ES,Den Haag,+31694513443,harry.pemberton@example-school.nl,Layla Al-Farsi\n# note: legacy row id 257129304 retired on Monday\n",
+  "pii": [
+    {
+      "value": "Harry Pemberton",
+      "type": "name"
+    },
+    {
+      "value": "13-02-2013",
+      "type": "date"
+    },
+    {
+      "value": "280738158",
+      "type": "bsn"
+    },
+    {
+      "value": "Beukenlaan 161",
+      "type": "address"
+    },
+    {
+      "value": "8734 ES",
+      "type": "postcode"
+    },
+    {
+      "value": "+31694513443",
+      "type": "phone"
+    },
+    {
+      "value": "harry.pemberton@example-school.nl",
+      "type": "email"
+    },
+    {
+      "value": "Layla Al-Farsi",
+      "type": "name"
+    }
+  ]
+}

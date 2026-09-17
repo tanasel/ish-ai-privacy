@@ -1,0 +1,26 @@
+{
+  "name": "ee_feedback_15",
+  "text": "EE supervision log — Kasia Wiśniewska\nSession date: 4 November 2014\n\nDiscussed the methodology chapter. Kasia will interview a local expert; consent form scanned to https://www.example-tutoring.nl/booking?ref=6403. Reminder sent to kasia.wisniewska@example-school.nl about the RPPF deadline of 26 October 2018. No use of personal data beyond the school; The Hague archive visit planned for a Monday in January.\n",
+  "pii": [
+    {
+      "value": "Kasia Wiśniewska",
+      "type": "name"
+    },
+    {
+      "value": "4 November 2014",
+      "type": "date"
+    },
+    {
+      "value": "https://www.example-tutoring.nl/booking?ref=6403",
+      "type": "url"
+    },
+    {
+      "value": "kasia.wisniewska@example-school.nl",
+      "type": "email"
+    },
+    {
+      "value": "26 October 2018",
+      "type": "date"
+    }
+  ]
+}

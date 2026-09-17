@@ -1,0 +1,38 @@
+{
+  "name": "admissions_row_11",
+  "text": "applicant_name,dob,bsn,address,postcode,city,phone,email,guardian\nPriya Raghavan,27-11-2019,390877852,Molenplein 108,6797 UW,Den Haag,+31649624247,priya.raghavan@example-school.nl,Kavya Sharma\n# note: legacy row id 367432743 retired on Monday\n",
+  "pii": [
+    {
+      "value": "Priya Raghavan",
+      "type": "name"
+    },
+    {
+      "value": "27-11-2019",
+      "type": "date"
+    },
+    {
+      "value": "390877852",
+      "type": "bsn"
+    },
+    {
+      "value": "Molenplein 108",
+      "type": "address"
+    },
+    {
+      "value": "6797 UW",
+      "type": "postcode"
+    },
+    {
+      "value": "+31649624247",
+      "type": "phone"
+    },
+    {
+      "value": "priya.raghavan@example-school.nl",
+      "type": "email"
+    },
+    {
+      "value": "Kavya Sharma",
+      "type": "name"
+    }
+  ]
+}

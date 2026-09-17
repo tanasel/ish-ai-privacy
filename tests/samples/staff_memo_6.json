@@ -1,0 +1,30 @@
+{
+  "name": "staff_memo_6",
+  "text": "STAFF MEMO — exam invigilation\nEffective: 2023-09-19\n\nColleagues, the invigilation roster is on https://drive.example.com/d/264986x. The printer in room 12 now sits on the staff VLAN at 129.135.171.141. Reimbursements for the January excursion go out this week; check that payroll has your IBAN — one colleague still has the placeholder NL21TRIO5677991919 on file. Questions to Omar Haddad (omar18@studentmail.example.org). The Hague municipality inspection is on a Monday; batch code 203593330 applies to the fire drill, ignore it.\n",
+  "pii": [
+    {
+      "value": "2023-09-19",
+      "type": "date"
+    },
+    {
+      "value": "https://drive.example.com/d/264986x",
+      "type": "url"
+    },
+    {
+      "value": "129.135.171.141",
+      "type": "ip"
+    },
+    {
+      "value": "NL21TRIO5677991919",
+      "type": "iban"
+    },
+    {
+      "value": "Omar Haddad",
+      "type": "name"
+    },
+    {
+      "value": "omar18@studentmail.example.org",
+      "type": "email"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "medical_consent_8",
+  "text": "Sports day medical consent\nStudent: Aisha Benali\nDate of birth: 04-03-2023\nBSN: 809366332\nHome address: Molenplein 24, 7053 ET\nGuardian: Wei Zhang — +31674887803 — wei_zhang@familypost.example.com\nInsurance IBAN for refunds: NL78ABNA4582099860\nNote: form batch 339996329 printed in January; return by Monday.\n",
+  "pii": [
+    {
+      "value": "Aisha Benali",
+      "type": "name"
+    },
+    {
+      "value": "04-03-2023",
+      "type": "date"
+    },
+    {
+      "value": "809366332",
+      "type": "bsn"
+    },
+    {
+      "value": "Molenplein 24",
+      "type": "address"
+    },
+    {
+      "value": "7053 ET",
+      "type": "postcode"
+    },
+    {
+      "value": "Wei Zhang",
+      "type": "name"
+    },
+    {
+      "value": "+31674887803",
+      "type": "phone"
+    },
+    {
+      "value": "wei_zhang@familypost.example.com",
+      "type": "email"
+    },
+    {
+      "value": "NL78ABNA4582099860",
+      "type": "iban"
+    }
+  ]
+}

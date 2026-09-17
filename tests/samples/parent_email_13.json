@@ -1,0 +1,38 @@
+{
+  "name": "parent_email_13",
+  "text": "From: zofia.kowalczyk@example-school.nl\nTo: admin83@studentmail.example.org\nSent: 2024-12-04\nSubject: Trip payment for Mateo Ruiz Delgado\n\nDear administration,\n\nI transferred the field-trip contribution today from account NL72RABO6497254941. Could you confirm receipt? We are away until next Monday. Our new address is 48 Birch Avenue — the post to the old street keeps bouncing. You can also call me on +31671781014.\n\nKind regards,\nZofia Kowalczyk\n",
+  "pii": [
+    {
+      "value": "zofia.kowalczyk@example-school.nl",
+      "type": "email"
+    },
+    {
+      "value": "admin83@studentmail.example.org",
+      "type": "email"
+    },
+    {
+      "value": "2024-12-04",
+      "type": "date"
+    },
+    {
+      "value": "Mateo Ruiz Delgado",
+      "type": "name"
+    },
+    {
+      "value": "NL72RABO6497254941",
+      "type": "iban"
+    },
+    {
+      "value": "48 Birch Avenue",
+      "type": "address"
+    },
+    {
+      "value": "+31671781014",
+      "type": "phone"
+    },
+    {
+      "value": "Zofia Kowalczyk",
+      "type": "name"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="{{CSP}}">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Review and replace personal details before working with AI. A local browser tool for ISH Academy staff.">
+<title>ISH AI Privacy | ISH Academy</title>
+<link rel="icon" type="image/png" href="{{ISH_MARK}}">
+<style>{{STYLES}}</style>
+</head>
+<body>
+<a class="skip-link" href="#main" data-i18n="skip_link">Skip to tool</a>
+<div class="brand-stripe" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+<header class="topbar">
+ <div class="brand"><span class="privacy-logo" aria-hidden="true"><img src="{{ISH_MARK}}" width="64" height="64" alt=""></span><div><span class="eyebrow">ACADEMY / STAFF TOOLS</span><h1>ISH <span class="brand-product">AI Privacy</span></h1></div></div>
+ <div class="header-actions"><button class="btn" id="open-help" data-i18n="help_btn">Tutorial & FAQ</button><button id="lang-toggle" class="btn" aria-label="Switch to Dutch">NL</button><button id="readability" class="btn" aria-pressed="false" data-i18n="readability">Reading view</button><button id="contrast-toggle" class="btn" aria-pressed="false" data-i18n="contrast">High contrast</button></div>
+</header>
+<div class="academy-bar"><nav aria-label="ISH Academy"><a href="https://www.ish.academy/inform/" target="_blank" rel="noopener noreferrer">Inform</a><a href="https://www.ish.academy/innovate/" target="_blank" rel="noopener noreferrer">Innovate</a><a href="https://www.ish.academy/learn/" target="_blank" rel="noopener noreferrer">Learn</a></nav><a class="short-link" href="https://www.ish.academy/privacy/">ish.academy/privacy</a><span class="status-pill" data-i18n="offline_pill">Your text is processed in this browser</span></div>
+<nav class="stepper" id="step-nav" aria-label="Steps" data-i18n-attr="aria-label:stepper_aria"><ol>
+<li><button class="step-btn" id="stepbtn-1"><span class="step-num">1</span><span data-i18n="stepper_1">Add text</span></button></li>
+<li><button class="step-btn" id="stepbtn-2"><span class="step-num">2</span><span data-i18n="stepper_2">Check details</span></button></li>
+<li><button class="step-btn" id="stepbtn-3"><span class="step-num">3</span><span data-i18n="stepper_3">Work with AI</span></button></li>
+<li id="restore-nav"><button class="step-btn" id="stepbtn-5"><span class="step-num">4</span><span data-i18n="stepper_5">Restore reply</span></button></li>
+</ol><button id="start-over" class="btn btn-ghost" data-i18n="start_over">Clear session</button></nav>
+<main id="main" tabindex="-1">
+<p id="app-message" class="notice" role="status" hidden></p>
+<section class="step-panel" id="step-1" aria-labelledby="h-step1">
+<div class="section-heading"><div><span class="eyebrow" data-i18n="prepare_label">01 / PREPARE</span><h2 id="h-step1" data-i18n="step1_title">Start with the text you need</h2></div><div class="practice-controls"><label for="example-kind" class="field-label" data-i18n="example_kind">Practice scenario</label><select id="example-kind"><option value="teaching" data-i18n="role_teaching">Teaching</option><option value="support" data-i18n="role_support">Learning support</option><option value="admin" data-i18n="role_admin">Administration</option></select><button class="btn" id="try-example" data-i18n="try_example">Try a practice example</button></div></div>
+<p class="lead" data-i18n="step1_lead">Replace personal details before working with AI. Paste only the text needed for your task. No installation or account is needed.</p>
+<fieldset class="mode-picker"><legend data-i18n="mode_title">How should details be handled?</legend><label><input id="mode-remove" name="privacy-mode" type="radio" value="remove" checked><span><strong data-i18n="mode_remove">Remove details</strong><small data-i18n="mode_remove_hint">Recommended. Use one removal marker. No restoration key is kept.</small></span></label><label><input id="mode-codes" name="privacy-mode" type="radio" value="codes"><span><strong data-i18n="mode_codes">Keep reversible codes</strong><small data-i18n="mode_codes_hint">Optional. Restore details later. This is pseudonymisation.</small></span></label></fieldset>
+<label class="field-label" for="ai-task" data-i18n="task_label">What would you like the AI to do?</label><textarea id="ai-task" rows="2" maxlength="2000" autocomplete="off" spellcheck="false"></textarea><p class="hint" data-i18n="task_hint">Your request is checked together with the text. Keep it general.</p>
+<label for="input-text" class="field-label" data-i18n="your_text">Your text</label>
+<textarea id="input-text" rows="9" autocomplete="off" spellcheck="false" data-i18n-attr="placeholder:input_placeholder" placeholder="Paste your text here"></textarea>
+<p class="hint" id="input-count" aria-live="polite"></p>
+<div id="dropzone" class="dropzone"><div><strong data-i18n="drop_strong">Or choose a document</strong><p class="hint" data-i18n="drop_types">Text, Word, Excel, PowerPoint, OpenDocument or a PDF with selectable text. Maximum 50 MB.</p></div><button class="btn" id="pick-file" data-i18n="pick_file">Choose a file</button><input type="file" id="file-input" hidden accept=".txt,.csv,.tsv,.md,.pdf,.docx,.xlsx,.pptx,.odt,.ods,.odp" aria-label="Choose a file" data-i18n-attr="aria-label:file_input_aria"></div>
+<button id="cancel-import" class="btn" hidden data-i18n="cancel_import">Cancel import</button>
+<p class="hint" data-i18n="file_limits">Up to 200 slides or PDF pages and 100,000 extracted characters, including the file name.</p>
+<p id="file-note" class="notice" role="status" hidden></p>
+<aside id="import-receipt" class="notice" hidden aria-labelledby="import-receipt-title"><h3 id="import-receipt-title" data-i18n="import_receipt_title">What was read</h3><p id="import-counts"></p><ul id="import-warnings"></ul></aside>
+<details class="optional" id="filename-tool"><summary data-i18n="filename_list_title">Check a list of file names</summary><p class="hint" data-i18n="filename_list_hint">Paste one file name per line. Each name is offered for replacement as a whole. Original files are not renamed.</p><label for="filename-list" class="field-label" data-i18n="filename_list_label">File names</label><textarea id="filename-list" rows="4" autocomplete="off" spellcheck="false"></textarea><div class="row"><button id="check-filenames" class="btn" data-i18n="filename_list_check">Check these file names</button></div></details>
+<details class="optional"><summary data-i18n="class_list_summary">Help it find names: add a class list (optional)</summary><p data-i18n="csv_hint">A class list improves name detection. Choose a CSV with first_name and last_name columns. It stays in this tab.</p><div class="row"><button class="btn" id="import-csv" data-i18n="import_csv">Choose class list</button><button class="btn" id="sample-csv" data-i18n="sample_csv">Download example CSV</button><button class="btn" id="clear-csv" hidden data-i18n="clear_csv">Remove list</button><input type="file" id="csv-input" hidden accept=".csv,.txt" aria-label="Choose class list CSV" data-i18n-attr="aria-label:csv_input_aria"><span id="csv-count" class="pill-info" role="status" hidden></span></div></details>
+<p class="hint" data-i18n="filename_hint">File names are included in the check. Original files are not renamed.</p>
+<p class="privacy-note" data-i18n="input_privacy">Detection can miss details. Check names, addresses, dates of birth and context that could identify someone. Follow school guidance before sharing text with an AI service.</p>
+<div class="step-actions"><button class="btn btn-primary" id="to-step-2" data-i18n="find_btn">Find personal details</button></div>
+</section>
+<section class="step-panel" id="step-2" hidden aria-labelledby="h-step2">
+<span class="eyebrow" data-i18n="review_label">02 / REVIEW</span><h2 id="h-step2" data-i18n="step2_title">Check the whole text</h2><p class="lead" data-i18n="warnbar">Highlighted details will be replaced. Add anything missed, including a whole sentence if the context identifies someone.</p><aside class="context-check"><h3 data-i18n="context_title">Could someone still recognise this person?</h3><ul><li data-i18n="context_one">Look beyond names: age, class, nationality, location and combinations of facts.</li><li data-i18n="context_two">Remove unnecessary medical, support, safeguarding or family details.</li><li data-i18n="context_three">Mark a whole identifying sentence, or go back and make it more general.</li></ul></aside><p id="detect-summary" class="notice" role="status"></p>
+<div id="preview" class="preview" tabindex="0" aria-label="Text with highlighted details" data-i18n-attr="aria-label:preview_aria"></div>
+<p class="hint" data-i18n="select_hint">Select text in the preview and add it, or type a missed detail below. Matches include every occurrence.</p>
+<div class="addmissed"><label for="manual-value" class="field-label" data-i18n="missed_value">Detail to replace</label><input type="text" id="manual-value" autocomplete="off" spellcheck="false" data-i18n-attr="placeholder:manual_placeholder" placeholder="A missed name, address or phrase"><label for="manual-type" class="field-label" data-i18n="type_label">Type</label><select id="manual-type"><option value="detail" data-i18n="type_detail">Other personal detail</option><option value="name" data-i18n="type_name">Name</option><option value="address" data-i18n="type_address">Address</option><option value="date" data-i18n="type_date">Date / birth date</option><option value="email" data-i18n="type_email">Email</option><option value="phone" data-i18n="type_phone">Phone</option><option value="id" data-i18n="type_id">Identification number</option></select><div class="row"><button class="btn" id="add-selected" data-i18n="add_selected">Add selected text</button><button class="btn" id="add-manual" data-i18n="add_btn">Add typed detail</button></div></div>
+<p id="manual-note" class="notice" role="status" hidden></p>
+<details class="optional" id="detection-options"><summary data-i18n="detections_h">Adjust replacements</summary><p class="hint" data-i18n="uncheck_hint">Uncheck only if this detail should remain in the text you share.</p><div class="table-wrap"><table id="review-table"><thead><tr><th scope="col" data-i18n="th_keep">Replace?</th><th scope="col" data-i18n="th_value">Detail</th><th scope="col" data-i18n="th_type">Type</th></tr></thead><tbody id="review-tbody"></tbody></table></div></details>
+<p id="prepare-note" class="privacy-note"></p><label class="checkline"><input type="checkbox" id="review-confirm"><span data-i18n="review_confirm">I checked the full text and added missed details, including information that could identify someone indirectly.</span></label>
+<div class="step-actions"><button class="btn" id="back-to-1" data-i18n="back">Back</button><button class="btn btn-primary" id="to-step-3" disabled data-i18n="make_safe">Prepare text for AI</button></div>
+</section>
+<section class="step-panel" id="step-3" hidden aria-labelledby="h-step3">
+<span class="eyebrow" data-i18n="work_label">03 / WORK WITH AI</span><h2 id="h-step3" data-i18n="step3_title">Work with AI</h2><p class="lead" data-i18n="step3_lead">Checked details are replaced with codes. Review the remaining text once more: it may still identify someone through context.</p>
+<p id="output-mode-note" class="notice" role="status"></p><pre id="anon-output" class="copybox" tabindex="0" aria-label="Text with replacements" data-i18n-attr="aria-label:anon_aria"></pre>
+<label class="checkline"><input type="checkbox" id="share-confirm"><span data-i18n="share_confirm">I checked this text and my request. They contain only information appropriate to share under school guidance.</span></label>
+<div class="row"><button class="btn btn-primary" id="copy-safe" disabled data-i18n="copy_safe">Copy prompt and text</button><button class="btn" id="download-safe" disabled data-i18n="download_prompt">Download prompt and text</button></div><p id="copy-status" class="notice" role="status" hidden></p>
+<details class="optional"><summary data-i18n="prompt_preview">See the full prompt</summary><pre id="prompt-output" class="copybox" tabindex="0"></pre></details>
+<ol class="work-steps" id="code-instructions"><li data-i18n="bigstep_1">Open a school-approved AI service in another tab.</li><li data-i18n="bigstep_2">Paste the copied prompt and text. Keep the replacement codes unchanged.</li><li data-i18n="bigstep_3">Copy its reply and return here to restore the details.</li></ol>
+<p id="code-session-note" class="privacy-note" data-i18n="keep_tab_hint">Keep this tab open. Closing or reloading it clears the restoration key. Nothing is saved automatically.</p>
+<div class="step-actions"><button class="btn" id="back-to-2" data-i18n="back">Back</button><button class="btn" id="finish-removal" hidden data-i18n="done_over">Finish and clear session</button><button class="btn btn-primary" id="to-step-5" data-i18n="have_answer">Restore an AI reply</button></div>
+</section>
+<section class="step-panel" id="step-5" hidden aria-labelledby="h-step5">
+<span class="eyebrow" data-i18n="restore_label">04 / RESTORE</span><h2 id="h-step5" data-i18n="step5_title">Restore the details in the reply</h2><p class="lead" data-i18n="restore_lead">The codes from this session will be replaced with the original details. Check the final wording and who it refers to before using it.</p><label for="ai-text" class="field-label" data-i18n="ai_label">Paste the AI reply here</label><textarea id="ai-text" rows="7" autocomplete="off" spellcheck="false" data-i18n-attr="placeholder:ai_placeholder" placeholder="Paste the AI reply"></textarea><div class="row"><button class="btn btn-primary" id="do-restore" data-i18n="restore_btn">Restore details</button></div><div id="flagged-panel" class="dangerbar" role="alert" hidden></div>
+<div id="restore-wrap" hidden><h3 data-i18n="restored_h">Restored text</h3><pre id="restore-output" class="copybox" tabindex="0" aria-label="Restored text" data-i18n-attr="aria-label:restore_aria"></pre><p class="privacy-note" data-i18n="restored_private">This text contains personal information again. Keep it within approved school systems.</p><div class="row"><button class="btn btn-primary" id="copy-restored" data-i18n="copy_restored">Copy restored text</button><button class="btn" id="download-restored" data-i18n="download_txt">Download text</button></div><p id="restore-copy-status" class="notice" role="status" hidden></p></div><div class="step-actions"><button class="btn" id="back-to-3" data-i18n="back">Back</button><button class="btn" id="finish-over" data-i18n="done_over">Finish and clear session</button></div>
+</section>
+<section class="step-panel help-panel" id="help-panel" hidden aria-labelledby="help-title"><div class="section-heading"><h2 id="help-title" tabindex="-1" data-i18n="help_btn">Tutorial & FAQ</h2><div class="row"><a class="btn" id="download-offline" href="ish-ai-privacy.html" download="ish-ai-privacy.html" data-i18n="download_offline">Download offline tool</a><button class="btn" id="print-guide" data-i18n="print_guide">Print / save guide as PDF</button><button class="btn btn-primary" id="close-help" data-i18n="back_tool">Back to tool</button></div></div><div id="help-content"></div></section>
+</main>
+<div class="brand-stripe" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+<footer class="footer"><span data-i18n="footer">ISH AI Privacy helps reduce disclosure. It does not guarantee anonymity or GDPR compliance.</span><span class="version">Staff edition {{VERSION}} · {{RELEASE_DATE_EN}}</span></footer>
+<noscript>This tool needs JavaScript in your browser. Your text is processed locally.</noscript>
+<script>{{VENDOR}}
+{{NAMES_DB}}
+{{ENGINE}}
+{{I18N}}
+{{UI}}</script>
+</body>
+</html>

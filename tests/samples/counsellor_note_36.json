@@ -1,0 +1,38 @@
+{
+  "name": "counsellor_note_36",
+  "text": "Well-being note — CONFIDENTIAL\nSeen: Omar Haddad on 4 July 2014\n\nOmar reported exam stress and poor sleep since January. Agreed on a check-in every Monday. Home situation stable; family recently moved to Tulpenkade 100, 1954 GH Den Haag. Emergency contact: Yusuf El Amrani, +31 70 7461395. GP referral letter uploaded to https://www.example-tutoring.nl/booking?ref=6744. BSN on file: 967026970. Next review after the The Hague mock exams.\n",
+  "pii": [
+    {
+      "value": "Omar Haddad",
+      "type": "name"
+    },
+    {
+      "value": "4 July 2014",
+      "type": "date"
+    },
+    {
+      "value": "Tulpenkade 100",
+      "type": "address"
+    },
+    {
+      "value": "1954 GH",
+      "type": "postcode"
+    },
+    {
+      "value": "Yusuf El Amrani",
+      "type": "name"
+    },
+    {
+      "value": "+31 70 7461395",
+      "type": "phone"
+    },
+    {
+      "value": "https://www.example-tutoring.nl/booking?ref=6744",
+      "type": "url"
+    },
+    {
+      "value": "967026970",
+      "type": "bsn"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ia_feedback_50",
+  "text": "IA Criterion C feedback for Sakura Ishikawa (draft received 25 February 2013)\n\nThe development section is well structured. The screencast hosted at http://intranet.example-school.org/wellbeing/case-108 demonstrates the database queries clearly. However, the appendix still contains the test server address 175.193.215.237 and your personal email sakura22@studentmail.example.org — remove both before final submission. The word count is fine. The Hague regional deadline is unchanged; submission closes in March.\n\nSupervisor sign-off: Jiwoo Park\n",
+  "pii": [
+    {
+      "value": "Sakura Ishikawa",
+      "type": "name"
+    },
+    {
+      "value": "25 February 2013",
+      "type": "date"
+    },
+    {
+      "value": "http://intranet.example-school.org/wellbeing/case-108",
+      "type": "url"
+    },
+    {
+      "value": "175.193.215.237",
+      "type": "ip"
+    },
+    {
+      "value": "sakura22@studentmail.example.org",
+      "type": "email"
+    },
+    {
+      "value": "Jiwoo Park",
+      "type": "name"
+    }
+  ]
+}
