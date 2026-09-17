@@ -14,6 +14,9 @@ Do not include real personal data in a report. Use the tool's fictional practice
 
 ## Verifying a release
 
+Source: https://github.com/tanasel/ish-ai-privacy (releases carry the bundle and `RELEASE-HASHES.txt`).
+
+
 1. `npm ci && npm run build` rebuilds every output from source.
 2. `npm run build:verify` rebuilds and fails if any hash differs from `RELEASE-HASHES.txt`.
 3. Compare the hash shown under "Check this build" in the running page with `RELEASE-HASHES.txt` for that edition.
